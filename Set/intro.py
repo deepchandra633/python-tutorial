@@ -85,6 +85,10 @@
 # print(a.issubset(b))
 
 # print(b.issuperset(a))
+# disjoint method
+a = {1, 2, 3}
+b = {4, 5, 6}
+print(a.isdisjoint(b))
 
 
 # numbers = {10, 20, 30}
@@ -98,3 +102,9 @@
 # data = frozenset([1, 2, 3])
 
 # print(data)
+
+# Program to create a frozen set
+
+# numbers = frozenset([1, 2, 3, 4, 5])
+
+# print("Frozen Set =", numbers)
