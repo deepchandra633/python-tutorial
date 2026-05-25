@@ -2,7 +2,7 @@
 n=int(input("Enter range of number"))
 even_numbers = set()
 
-for i in range(1, n):
+for i in range(1, n+1):
 
     if i % 2 == 0:
         even_numbers.add(i)

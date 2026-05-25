@@ -11,3 +11,5 @@ for i in set1:
         common.add(i)
 
 print("Intersection =", common)
+
+# print(set1.intersection(set2))

@@ -7,7 +7,7 @@ b = 1
 
 fib_set = set()
 
-for i in range(n):
+for i in range(n+1):
 
     fib_set.add(a)
 

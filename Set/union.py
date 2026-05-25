@@ -9,3 +9,5 @@ for i in set2:
     result.add(i)
 
 print("Union =", result)
+
+print(set1.union(set2))

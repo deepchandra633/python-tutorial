@@ -8,3 +8,6 @@ print("Unique Characters:")
 
 for ch in unique_chars:
     print(ch, end=" ")
+
+
+print(unique_chars)
