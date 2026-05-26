@@ -36,3 +36,24 @@
 # while i<=10:
 #     print_hello()
 #     i+=1
+
+
+
+# def student(name, age):
+
+#     print(name, age)
+
+# student(age=21,name="Deep")
+
+
+# def total(*numbers):
+
+#     print(numbers)
+
+# total(1, 2, 3, 4,5,6,7,8)
+
+def total(**numbers):
+
+    print(numbers)
+
+total(a=1, b=2, c=3,)
